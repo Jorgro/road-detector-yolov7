@@ -43,6 +43,7 @@ def getFileList3(filePath):
         for i in range(len(xmlFiles)):
             temp = xmlFiles[i].strip().rsplit('.',1)[0]
             xmlFiles[i] = os.path.abspath(temp.replace("images","annotations/xmls")+".xml")
+            print(xmlFiles[i])
             labels_path = os.path.dirname(xmlFiles[i]).replace("annotations/xmls","labels")
             if not os.path.exists(labels_path):
                 os.mkdir(labels_path)
