@@ -8159,4 +8159,3 @@
 /cluster/home/jorgro/datasets/Norway/train/images/Norway_008158.jpg
 /cluster/home/jorgro/datasets/Norway/train/images/Norway_008159.jpg
 /cluster/home/jorgro/datasets/Norway/train/images/Norway_008160.jpg
-train.txt
