@@ -56,8 +56,8 @@ def getFileList3(filePath):
 def main():
 
     parser = argparse.ArgumentParser(description='run phase2.')
-    parser.add_argument('--class_file', type=str, help='path of the file containing list of classes of detection problem. sample file at "datasets/road2020/damage_classes.txt"',default='datasets/road2020/damage_classes.txt')
-    parser.add_argument('--input_file', type=str, help='location to the list of images/xml files(absolute path). sample file at "datasets/road2020/train.txt"',default='datasets/road2020/train.txt')
+    parser.add_argument('--class_file', type=str, help='path of the file containing list of classes of detection problem. sample file at "datasets/road2020/damage_classes.txt"',default='./damage_classes.txt')
+    parser.add_argument('--input_file', type=str, help='location to the list of images/xml files(absolute path). sample file at "datasets/road2020/train.txt"',default='./train.txt')
     args = parser.parse_args()
 
     #assign each class of dataset to a number
